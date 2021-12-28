@@ -190,7 +190,8 @@ int heur(int* block)
 }
 
 
-void prepend(elementstruct* newnode, elementstruct* oldnode, int op)//to initialize next state with dirextions,pathcost ,totalpathcost ,block values
+void prepend(elementstruct* newnode, elementstruct* oldnode, int op)
+//to initialize next state with dirextions,pathcost ,totalpathcost ,block values
 {
   newnode->next = top;
   top = newnode;
